@@ -1,0 +1,24 @@
+numerical values -> 999999 -> possible to be NaN -> check heapq nlargest to make sure
+avoid biased values -> remove duplicate
+Workclass -> null -> private //
+Fnlwgt -> drop //
+Education -> drop //
+Occupation -> null -> replace according to mode per year //
+native -> null workclass //
+age -> discrete age = {25–60, <25 or >60}. //
+cap loss cap gain -> deal with outliers
+
+min max scaling:
+workclass
+
+
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier as knn //
+from sklearn.naive_bayes import GaussianNB as nb //
+from sklearn.linear_model import LogisticRegression as lr //
+from sklearn.tree import DecisionTreeClassifier as dt 
+from sklearn.svm import SVC as vc // 
+import sklearn.metrics as sm
+
+
+CAN DO MORE WITH OUTLIER DETECTOR => IQR
