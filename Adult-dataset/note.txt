@@ -22,3 +22,5 @@ import sklearn.metrics as sm
 
 
 CAN DO MORE WITH OUTLIER DETECTOR => IQR
+
+

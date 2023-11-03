@@ -1,0 +1,1 @@
+right now need to deal with when job and education are NaN at the same time so cannnot replace values

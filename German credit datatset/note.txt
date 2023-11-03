@@ -20,14 +20,9 @@ apply ordinal encoding on above 3 columns b
 
 
 
-non ordinal categorical columns
-purposal
-property
-other-isntallment
-housing
-job
-telephone
-foreign-worker
+ordinal categorical columns
+checking account
+savings caccount
 
-
+personal-status -> maybe
 try to identify which categorical columns are comparable so that we can apply ordinal encoding and scaling techinques. If dont just use label encoding.
